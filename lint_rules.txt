@@ -8,7 +8,7 @@
 +disable-statement
 -endif-comment
 -enum-name-style
-+explicit-function-lifetime
+-explicit-function-lifetime
 +explicit-function-task-parameter-type
 -explicit-parameter-storage-type
 +explicit-task-lifetime
@@ -22,7 +22,7 @@
 +invalid-system-task-function
 -legacy-generate-region
 -legacy-genvar-declaration
-+line-length=length:80
++line-length=length:120
 +macro-name-style
 -macro-string-concatenation
 +mismatched-labels
