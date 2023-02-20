@@ -22,7 +22,7 @@
 +invalid-system-task-function
 -legacy-generate-region
 -legacy-genvar-declaration
-+line-length=length:120
++line-length=length:50
 +macro-name-style
 -macro-string-concatenation
 +mismatched-labels
