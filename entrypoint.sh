@@ -58,6 +58,8 @@ fi
 
 echo "Running reviewdog"
 
+echo "RDF_LOG $rdf_log"
+
 "$GOBIN"/reviewdog -f=rdjson \
   -reporter="$INPUT_REVIEWDOG_REPORTER" \
   -fail-on-error="$INPUT_FAIL_ON_ERROR" \
