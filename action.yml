@@ -5,7 +5,7 @@ author: 'Antmicro'
 inputs:
   config_file:
     description: 'Relative path to configuration file'
-    required: false
+    required: true
     default: 'lint_rules.txt'
   extra_args:
     description: 'Extra arguments for verible-linter'
