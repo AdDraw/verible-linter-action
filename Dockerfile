@@ -36,6 +36,7 @@ RUN git clone https://github.com/reviewdog/reviewdog \
 COPY entrypoint.sh /opt/antmicro/entrypoint.sh
 COPY action.py /opt/antmicro/action.py
 COPY rdf_gen.py /opt/antmicro/rdf_gen.py
+COPY lint_rules.txt /opt/antmicro/lint_rules.txt
 WORKDIR /opt/antmicro
 
 ENTRYPOINT ["/opt/antmicro/entrypoint.sh"]
