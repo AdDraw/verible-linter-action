@@ -27,6 +27,7 @@ fi
 touch "$INPUT_LOG_FILE"
 export REVIEWDOG_GITHUB_API_TOKEN="$INPUT_GITHUB_TOKEN"
 rdf_log=$(mktemp)
+echo $INPUT_CONFIG_FILE
 if [ "$INPUT_SUGGEST_FIXES" = "true" ]; then
   echo "suggesting fixes"
   patch=$(mktemp)
